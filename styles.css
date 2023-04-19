@@ -15,8 +15,6 @@
 
 .logo {
     display: flex;
-    /* flex-direction: column;
-    align-items: center; */
     margin: auto 0 0 50px;
     align-items: center;
 }
@@ -50,7 +48,8 @@
 }
 
 .aboutUs {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutUs .heading-1 {
@@ -80,14 +79,47 @@
 }
 
 .specs {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     color: #f9faf8;
 }
 
 .iphImage img {
-    width: 300px;
+    width: auto;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 0;
+
+    /* max-width: 300px;
+    min-width: 100px;
+    height: auto; 
+    display: block; */
+}
+
+.order-button {
+    margin-top: 40px;
+    display: inline-block;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.order-button:hover {
+    background-color: #0062cc;
+}
+
+/* ===========Main =============*/
+.bestSell{
+    width: 100%;
     height: auto;
+}
+.bestSellPict{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* ===========footer =============*/
@@ -97,10 +129,13 @@
     align-items: center;
     flex-direction: column;
     background-color: #1f2937;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     width: 100%;
-    height: auto;
+    height: auto; */
+    position: absolute;
+    bottom: auto;
+    width: 100%;
 }
 
 footer>div.logo {
@@ -128,7 +163,6 @@ footer>div.logo>a>img {
 }
 
 .links-f a {
-    /* margin-left: 20px; */
     text-decoration: none;
     color: #f9faf8;
     font-size: small;
