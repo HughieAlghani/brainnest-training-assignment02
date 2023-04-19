@@ -109,6 +109,8 @@ section.first-section{
     font-size: 36px;
 }
 
+
+
 /* Second Section Rules */
 section.second-section{
     min-height: 400px;
@@ -118,8 +120,13 @@ section.second-section{
 .accessory-item{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
+}
+
+img.items{
+    height: 300px;
+    width: auto;
 }
 
 /* Footer Rules */
@@ -173,3 +180,4 @@ footer > div.logo > a > img{
     color: #f9faf8;
     font-size: 10px;
 }
+
