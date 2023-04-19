@@ -1,26 +1,33 @@
-*{
+* {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     padding-right: 50px;
+
 }
-.logo{
+
+.logo {
     display: flex;
     /* flex-direction: column;
     align-items: center; */
     margin: auto 0 0 50px;
     align-items: center;
 }
+
 .logo img {
     height: 50px;
     width: auto;
 }
+
 .logo p {
     color: #f9faf8;
+    font-size: 24px;
 }
 
 .links-nb a {
@@ -33,31 +40,105 @@
     text-decoration: underline;
 }
 
+/* ===========Hero =============*/
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: auto;
+    padding: 100px;
+}
+
+.aboutUs {
+    width: 50%;
+}
+
+.aboutUs .heading-1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.aboutUs .par-1 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.offer {
+    display: flex;
+    margin-left: 100px;
+}
+
+.heading-2,
+.discount {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-align: center;
+}
+
+.specs {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #f9faf8;
+}
+
+.iphImage img {
+    width: 300px;
+    height: auto;
+}
+
+/* ===========footer =============*/
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     background-color: #1f2937;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    height: 10vh;
+}
+
+footer>div.logo {
+    margin: 0;
+}
+
+footer>div.logo>a>img {
+    height: 30px;
+    width: auto;
+}
+
+.footer-logo-txt {
+    font-size: 15px;
 }
 
 .links-f {
-    padding-right: 100px;
+    min-width: 200px;
+
+    margin-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
+
 .links-f a {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     text-decoration: none;
     color: #f9faf8;
-    font-size:x-small;
+    font-size: small;
 }
+
 .links-f a:hover {
     text-decoration: underline;
 }
 
-.copyRight {
-    margin-left: 50px;
+.copyRight>p {
+    /* margin-left: 50px; */
     color: #f9faf8;
-    font-size: small;
+    font-size: 10px;
 }
