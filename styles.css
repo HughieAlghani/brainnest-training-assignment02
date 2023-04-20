@@ -17,12 +17,12 @@
     display: flex;
     margin: auto 0 0 50px;
     align-items: center;
+    padding: 30px;
 }
 
 .logo img {
     height: 50px;
     width: auto;
-    padding: 20px;
 }
 
 .logo p {
