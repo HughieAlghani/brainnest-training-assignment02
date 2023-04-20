@@ -4,20 +4,21 @@
     text-decoration: none;
 }
 
+/* ===========NAVBAR =============*/
 .navbar {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
-    padding-right: 50px;
+    padding: 20px;
 
 }
 
 .logo {
     display: flex;
-    margin: auto 0 0 50px;
     align-items: center;
-    padding: 30px;
+
 }
 
 .logo img {
@@ -44,13 +45,15 @@
 .hero {
     display: flex;
     background-color: #1f2937;
-    height: auto;
-    padding: 100px;
+    padding: 100px 0 50px 0;
+    flex-wrap: wrap;
 }
 
 .aboutUs {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin-left: 70px;
 }
 
 .aboutUs .heading-1 {
@@ -63,20 +66,41 @@
     font-size: 18px;
     color: #e5e7eb;
     font-weight: lighter;
-    margin-top: 30px;
+    padding-top: 30px;
+    width: auto;
+}
+.aboutUs .storePic img{
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+
 }
 
 .offer {
     display: flex;
-    margin-left: 100px;
+    align-items: stretch;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.heading-2,
-.discount {
+.offer .text {
+    flex-direction: column;
+    align-items: center;
+}
+.offer .text .discount{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-align: center;
+}
+
+.heading-2 {
     font-size: 30px;
     font-weight: bolder;
     color: #f9faf8;
     text-align: center;
+    padding: 10px;
 }
 
 .specs {
@@ -85,16 +109,15 @@
     color: #f9faf8;
 }
 
+.iphImage {
+    margin-top: -50px;
+}
+
 .iphImage img {
     width: auto;
-    height: 400px;
+    height: 500px;
     margin-left: 50px;
     margin-top: 0;
-
-    /* max-width: 300px;
-    min-width: 100px;
-    height: auto; 
-    display: block; */
 }
 
 .order-button {
@@ -128,6 +151,7 @@
 
 .bestSellPict {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 50px;
@@ -142,20 +166,46 @@
     text-align: center;
 }
 
+.bestSellPict figcaption {
+    margin-top: 10px;
+}
+
 /* ===========Main Quote=============*/
-.quote{
+.main-Q {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: auto;
+    height: auto;
+}
+
+.main-Q p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 20px;
+}
+
+.quote {
     background-color: #e5e7eb;
     width: 700px;
     text-align: center;
     border-radius: 10px;
-    margin: 0 auto;
-    padding: 20px;
 }
-.quote blockquote{
-font-size: 36px;
-font-weight: lighter;
-font-style: italic;
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
+
+.quote blockquote cite {
+    font-weight: bold;
+    font-size: 26px;
+}
+
 /* ===========footer =============*/
 .footer {
     display: flex;
