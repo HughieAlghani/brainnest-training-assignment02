@@ -86,7 +86,8 @@ section.first-section{
 }
 
 div.right-side > img{
-    height: 300px;
+    max-height: 200px;
+    max-width: auto;
 }
 
 .right-txt-container{
@@ -94,6 +95,10 @@ div.right-side > img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+div.right-txt-container > p{
+    text-align: center;
 }
 
 .customer-text, .buy-one-get-one{
@@ -112,8 +117,6 @@ div.right-side > img{
 .price{
     font-size: 28px;
 }
-
-
 
 /* Second Section Rules */
 section.second-section{
@@ -137,7 +140,7 @@ section.second-section{
 }
 
 img.items{
-    height: 350px;
+    height: 300px;
     width: auto;
 }
 
@@ -167,6 +170,7 @@ section.third-section > *{
 }
 
 h2{
+    text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -182,7 +186,8 @@ div.phone-preview{
 }
 
 div.phone-preview > *{
-    height: 400px;
+    height: 300px;
+    max-width: auto;
     margin-left: 20px;
     margin-right: 20px;
 }
