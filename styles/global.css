@@ -17,10 +17,10 @@ html {
     padding: 20px;
 }
 
+
 .logo {
     display: flex;
     align-items: center;
-
 }
 
 .logo img {
@@ -33,13 +33,13 @@ html {
     font-size: 24px;
 }
 
-.links-nb a {
+.navbar a {
     margin-left: 20px;
     text-decoration: none;
     color: #f9faf8;
 }
 
-.links-nb a:hover {
+.navbar a:hover {
     text-decoration: underline;
 }
 
