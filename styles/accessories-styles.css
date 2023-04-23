@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-
-}
-
 body{
     min-height: 100vh;
 }
@@ -18,37 +12,6 @@ button{
 
     color:white;
     background-color: #3882f6;
-}
-
-/* Navbar */
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-    align-items: center;
-    background-color: #1f2937;
-    padding: 20px;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img {
-    height: 50px;
-    width: auto;
-}
-.logo p {
-    color: #f9faf8;
-}
-
-.links-nb a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #f9faf8;
-}
-
-.links-nb a:hover {
-    text-decoration: underline;
 }
 
 /* Main Section Rules */
@@ -267,7 +230,7 @@ img.side-fill-img{
     object-fit: cover;
 }
 
-div.phone-promo-container{
+.phone-promo-container{
     height: 15vh;
 
     display: flex;
@@ -277,7 +240,7 @@ div.phone-promo-container{
     flex-wrap: wrap;
 }
 
-div.phone-promo-container > p{
+.phone-promo-container > p{
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -290,55 +253,4 @@ button.phone-page-btn{
     font-size: 24px;
 }
 
-/* Footer Rules */
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background-color: #1f2937;
-    position: absolute;
-    bottom: auto;
-    width: 100%;
-}
-
-footer > div.logo{
-    margin:0;
-}
-
-footer > div.logo > a > img{
-    height: 30px;
-    width: auto;
-}
-
-.footer-logo-txt{
-    font-size: 25px;
-}
-
-.links-f {
-    min-width: 200px;
-
-    margin-left: 30px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-.links-f a {
-    /* margin-left: 20px; */
-    text-decoration: none;
-    color: #f9faf8;
-    font-size:small;
-}
-.links-f a:hover {
-    text-decoration: underline;
-}
-
-.copyRight > p{
-    /* margin-left: 50px; */
-    color: #f9faf8;
-    font-size: 10px;
-    margin-top: 10px;
-}
 
